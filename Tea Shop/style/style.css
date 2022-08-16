@@ -1,0 +1,107 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+nav {
+    display: flex;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#logo {
+    height: 50px;
+    width: auto;
+    padding-left: 10px
+}
+.buttons {
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.buttons > li {
+    padding: 10px;
+    text-decoration: none;
+    text-decoration: underline;
+    list-style: none;
+    color: white;
+}
+a {
+    color: white;
+}
+
+section.hero {
+    display: flex;
+    background-image: url(/img/img-mission-background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 700px;
+    align-items: center;
+    margin: 0 auto;
+}
+#mission {
+    background-color: black;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+h2, h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.sorts-container {
+    max-width: 1000px;
+    height: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sorts > img {
+    height: 200px;
+    width: 300px;
+    margin: 0 15px;
+}
+p {
+    margin-top: 10px;
+}
+
+#locations {
+    background-image: url(/img/img-locations-background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 40px;
+}
+.locations-box {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.location {
+    opacity: 1;
+    width: 300px;
+    background-color: black;
+    margin: 15px 40px auto 40px;
+    line-height: 2;
+}
+
+.footer {
+    max-height: 200px;
+}
+
+.copy {
+    text-align: left;
+    margin-left: 20px;
+}
