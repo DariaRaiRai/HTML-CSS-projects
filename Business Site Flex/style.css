@@ -5,6 +5,7 @@ body {
   background-color: white;
   font-size: 22px;
   text-align: center;
+  font-weight: normal;
 }
 
 h2,
@@ -12,9 +13,15 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul,
+li {
   padding: 10px;
   margin: 0;
+}
+
+ul {
+  list-style: none;
 }
 
 header {
@@ -22,19 +29,16 @@ header {
   flex-direction: column;
   align-items: center;
 }
-
 .navigation {
   display: flex;
   /* flex-direction: row; */
   justify-content: space-around;
   margin: 0 10%;
 }
-
 .nav-item {
   display: inline-block;
   padding: 10px 65px;
 }
-
 a {
   color: black;
 }
@@ -43,9 +47,81 @@ main {
   padding-top: 35px;
   opacity: 0.9;
 }
-
 .hero {
   display: flex;
   height: 300px;
-  background-image: url("");
+  background-image: url("./image/skyscrapers.jpeg");
+  padding-top: 35px;
+}
+.content {
+  margin: auto;
+  background-color: white;
+  width: 100%;
+}
+
+.portfolio {
+  padding-top: 70px;
+  min-height: 500px;
+  margin: auto;
+}
+.company-container {
+  padding: 0;
+  margin: 0;
+}
+.content-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding: 10px;
+  height: auto;
+}
+.company p {
+  font-weight: bold;
+  min-width: 240px;
+  padding: 5px;
+  text-align: center;
+}
+
+.team-main {
+  background-image: url("./image/blurred-road.jpeg");
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.teamer {
+  padding: 10px;
+  color: white;
+  flex-basis: 280px;
+}
+.teamer img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: auto;
+}
+
+.contact h2 {
+  padding: 10px;
+}
+.contact,
+.copyright {
+  padding-top: 20px;
+}
+.contact {
+  margin: 30px auto;
+}
+.copyright {
+  padding-top: 20px;
 }
